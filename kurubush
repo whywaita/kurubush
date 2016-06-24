@@ -1,0 +1,16 @@
+#!/bin/sh
+
+responce(){
+  echo "わかる！！！
+それな。
+そんなことよりさけ！！！！
+$1？なにそれぇ" | shuf | head -1
+}
+
+while :
+do
+  printf "kurubushi $ "
+  read command
+  responce ${command}
+done
+

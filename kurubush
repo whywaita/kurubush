@@ -1,6 +1,6 @@
 #!/bin/sh
 
-responce(){
+response(){
   echo "わかる！！！
 それな。
 そんなことよりさけ！！！！
@@ -11,6 +11,6 @@ while :
 do
   printf "kurubushi $ "
   read command
-  responce ${command}
+  response ${command}
 done
 
